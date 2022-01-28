@@ -1,0 +1,66 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    cursor: url(../img/fly_killer.png) 30 30, auto;
+}
+
+body{
+    background: url(../img/bg.jpg) no-repeat fixed 100%;
+}
+
+
+.panel{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 190px; height: 70px;
+    background-color: rgba(70, 62, 62, 0.5);
+    text-align: center;
+    border-radius: 25px;
+}
+.health{
+    color: red;
+}
+.stopwatch{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+
+.fly1{
+    height: 50px; width: 50px;
+}
+.fly2{
+    height: 70px; width: 70px;
+}
+.fly3{
+    height: 90px; width: 90px;
+}
+
+.side0{
+    transform: scaleX(1);
+}
+.side1{
+    transform: scaleX(-1);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .d-flex img {
+        margin-top: 100px;
+        width: 360px; height: auto;
+    }
+    .panel{
+        margin-left: 0px;
+        padding-top: 5px;
+        width: 190px; height: 70px;
+        background-color: rgba(70, 62, 62, 0.5);
+        text-align: center;
+        border-radius: 25px;
+    }
+    .stopwatch{
+        font-size: 1em;
+    }
+}
