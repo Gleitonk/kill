@@ -11,7 +11,7 @@ body{
     background-size: 100%;
 }
 
-
+/* Painel de vida e cronometro */
 .panel{
     margin-left: 10px;
     padding-top: 10px;
@@ -28,7 +28,7 @@ body{
     font-size: 1.2em;
 }
 
-
+/* Classes para tamanhos diferentes. */
 .fly1{
     height: 50px; width: 50px;
 }
@@ -39,6 +39,7 @@ body{
     height: 90px; width: 90px;
 }
 
+/* Classes para lados diferente */
 .side0{
     transform: scaleX(1);
 }
@@ -46,7 +47,7 @@ body{
     transform: scaleX(-1);
 }
 
-
+/* Corrigindo tamanho no mobile */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     body{
