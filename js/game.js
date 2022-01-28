@@ -7,7 +7,7 @@ level = level.replace('?', '')
 // Seleciona o level
 if (level === 'normal') creationTime = 1250
 else if (level === 'hard') creationTime = 1000
-else if (level === 'insane') creationTime = 850
+else if (level === 'insane') creationTime = 700
 
 // Atribuindo o valor da altura e largura em px da janela, também quando ajustada. Linha 22 em app.index
 function areaAdjust() {
