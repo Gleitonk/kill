@@ -49,6 +49,9 @@ body{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    body{
+        background: url(../img/bg.jpg) no-repeat fixed;
+    }
     .d-flex img {
         margin-top: 100px;
         width: 360px; height: auto;
